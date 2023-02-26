@@ -1,0 +1,49 @@
+.search{
+    display: flex;
+  
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.gallery{
+    height: 25%;
+    width: 50%;
+}
+.cards{
+   
+    display: flex;
+    margin: 5% 5%;
+}
+.card{
+   margin: 1% 1%;
+}
+
+@media only screen and (max-width: 771px) {
+    .cards{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin: 1%  10%
+
+    }
+    .card{
+        width: 80vw;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1%  10%;
+    }
+    .gallery{
+        width: 80vw;
+    }
+  }
